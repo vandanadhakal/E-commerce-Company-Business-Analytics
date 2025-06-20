@@ -41,10 +41,20 @@ The column with information on the users activity (event_type), the date the eve
 **Conversion to Next Stage** at a stage was calculated as the ratio of number of users at the stage to the number of users at the previous stage.
 
 
-**Cohort Analysis**: Acquisition cohorts were developed based on the month of a user’s first purchase. Since the company wants to track cohort metrics month by month the first month a user made a purchase was used to form user cohort. So, only the purchase event data was used to calculate the retention rates.
-3. To track cohort metrics month by month, the cohort age was chosen as months between the first purchase month and subsequent purchase months.
+**Cohort Analysis**: Acquisition cohorts were developed based on the month of a user’s first purchase. Since the company wants to track cohort metrics month by month the first month a user made a purchase was used to form user cohort. So, only the purchase event data was used to calculate the retention rates. The cohort age was chosen as months between the first purchase month and subsequent purchase months.
+
 
 **Retention Rate**: Retention rate for each cohort was calculated as the ratio between the number of unique users who made the purchase compared to the first month the users made the purchase. Only the first purchase month data is available for 2021-02 cohort, so the retention calculation is skipped for this cohort.
 
 
 ### Conclusion
+
+1.	Conversion Funnel:
+a.	Only 29% of users who view the company website are adding products to their shopping cart. Maybe users have some issues/difficulty adding products in the cart with the website interface. It will be worthwhile to check the user interface for any issues or inconvenience for the customers. 
+b.	36% of users who added products to the cart are making purchases. It could benefit to send an email to the users reminding them of products in the cart.
+2.	Retention Rates:
+a.	On an average 7.3% of users who made a purchase initially are coming back next month to make a purchase. 
+b.	This percent reduces to less than 1% by 3rd and 4th month after the first purchase month. 
+c.	It could be worth to check how the user interface is in-terms of how easy it is to make purchase after viewing the products. 
+d.	Further study should be done to see if spending more on marketing or providing offers could attract more traffic to the website.
+
