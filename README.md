@@ -30,10 +30,12 @@ To understand how well an e-commerce company’s website is **converting product
 Each row represents an activity, or event, by a user on the company’s website. Each time a user views a product page, opens their shopping cart, or completes a purchase, the event is captured in the activity logs.
 
 **`Conversion Rate`**
+
 Conversion rate required to see how the customer moved from one stage (event) to another. Total conversion rates and conversion rates to the next step are calculated to see the path customers are taking as they interacted with the business. The users activity (event_type) data and the count of unique users (user_id) who went through these events are used to understand the conversion rate between these events.
 
 **`Retention Rates`**
-The retention rate tells how many users from a cohort have remained active compared to the initial number of users. Retention rate calculation required to establish cohorts and the cohort age only for the users who made purchases. Only the purchase event data are taken from raw user activity to make this analysis. The first month a customer made a purchase is used to form user cohort. Cohort age is calculated as the difference in months between the first purchase month and subsequent purchase months.
+
+Retention rate tells how many users from a cohort have remained active compared to the initial number of users. Retention rate calculation required to establish cohorts and the cohort age only for the users who made purchases. Only the purchase event data are taken from raw user activity to make this analysis. The first month a customer made a purchase is used to form user cohort. Cohort age is calculated as the difference in months between the first purchase month and subsequent purchase months.
 
 
 ### Data Preparation
