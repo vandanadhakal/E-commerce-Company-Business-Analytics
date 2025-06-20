@@ -37,6 +37,8 @@ Conversion rate required to see how the customer moved from one stage (event) to
 
 Retention rate tells how many users from a cohort have remained active compared to the initial number of users. Retention rate calculation required to establish cohorts and the cohort age only for the users who made purchases. Only the purchase event data are taken from raw user activity to make this analysis. The first month a customer made a purchase is used to form user cohort. Cohort age is calculated as the difference in months between the first purchase month and subsequent purchase months.
 
+<Project>
+
 
 ### Data Preparation
 The column with information on the users activity (event_type), the date the events occurred (event_date) and the unique id of the user (user_id) are used for analysis and calculation.
@@ -56,6 +58,8 @@ a.	Only 29% of users who view the company website are adding products to their s
 
 b.	36% of users who added products to the cart are making purchases. It could benefit to send an email to the users reminding them of products in the cart.
 
+<image>
+
 **`Retention Rates`**
    
 a.	On an average 7.3% of users who made a purchase initially are coming back next month to make a purchase.
@@ -65,4 +69,8 @@ b.	This percent reduces to less than 1% by 3rd and 4th month after the first pur
 c.	It could be worth to check how the user interface is in-terms of how easy it is to make purchase after viewing the products.
 
 d.	Further study should be done to see if spending more on marketing or providing offers could attract more traffic to the website.
+
+<Image>
+
+<Image>
 
