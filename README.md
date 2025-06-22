@@ -37,15 +37,14 @@ Conversion rate required to see how the customer moved from one stage (event) to
 
 Retention rate tells how many users from a cohort have remained active compared to the initial number of users. Retention rate calculation required to establish cohorts and the cohort age only for the users who made purchases. Only the purchase event data are taken from raw user activity to make this analysis. The first month a customer made a purchase is used to form user cohort. Cohort age is calculated as the difference in months between the first purchase month and subsequent purchase months.
 
-<Project>
-
-
 ### Data Preparation
 The column with information on the users activity (event_type), the date the events occurred (event_date) and the unique id of the user (user_id) are used for analysis and calculation.
 
 1. `Conversion Funnel`: Conversion Funnel – The calculation of conversion funnel required the need to understand the flow of customer events i.e ‘view’ -- ‘shopping_cart’ -- 'purchase'. Pivot table is used to calculate the total count of customers moving from one stage to another. **Total Conversion Rate** at a stage is calculated as the ratio of number of users at the stage to the number of users at ‘view’ stage. **Conversion to Next Stage** at a stage is calculated as the ratio of number of users at the stage to the number of users at the previous stage.
 
 2. `Cohort Analysis`: Acquisition cohorts are developed based on the month of a user’s first purchase. Since the company wants to track cohort metrics month by month the first month a user made a purchase is used to form user cohort. So, only the purchase event data is used to calculate the retention rates. The **cohort age** is chosen as months between the first purchase month and subsequent purchase months.
+
+<img src="https://github.com/vandanadhakal/E-commerce-Company-Business-Analytics/blob/main/Cohort%20Analysis.png">
 
 3. `Retention Rate`: **Retention Rate** for each cohort (cohort age >0) is calculated as the ratio between the number of unique users who made the purchase at the cohort age compared to the first month the users made the purchase. The **Average Retention Rate per Cohort Age** is the average of the retention rates per cohort. Only the first purchase month data is available for 2021-02 cohort, so the retention calculation is skipped for this cohort.
 
@@ -58,7 +57,7 @@ a.	Only 29% of users who view the company website are adding products to their s
 
 b.	36% of users who added products to the cart are making purchases. It could benefit to send an email to the users reminding them of products in the cart.
 
-<image>
+<img src="https://github.com/vandanadhakal/E-commerce-Company-Business-Analytics/blob/main/Conversion%20Funnel.png">
 
 **`Retention Rates`**
    
@@ -70,7 +69,7 @@ c.	It could be worth to check how the user interface is in-terms of how easy it 
 
 d.	Further study should be done to see if spending more on marketing or providing offers could attract more traffic to the website.
 
-<Image>
+<img src="https://github.com/vandanadhakal/E-commerce-Company-Business-Analytics/blob/main/Retention%20Rate.png">
 
-<Image>
+
 
