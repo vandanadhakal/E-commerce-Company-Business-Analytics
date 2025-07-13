@@ -11,6 +11,7 @@ To understand how well an e-commerce company’s website is **converting product
 
 ➔	Recommendations: Suggested the company to check their user interface for any difficulty in adding products to the carts and analyze if spending more on marketing/promotional offers could attract more traffic to the website.
 
+The project can be found <a href='https://docs.google.com/spreadsheets/d/1cltpKCw1Vg1M1n2mefL7y-VvI1Dt1HOQQo9FAB21eJM/edit?usp=sharing'><u>here</u>.</a>
 
 ### Project Description
 **Dataset** in this project contains the following columns:
